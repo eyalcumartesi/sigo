@@ -3,6 +3,7 @@ node_modules/
 
 # Ignore environment-specific configuration files (e.g., .env)
 .env
+config.env
 
 # Ignore server logs and runtime data
 logs/
