@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Company One",
+    "email": "company1@example.com",
+    "address": "789 Oak St",
+    "logo": "company1-logo.jpg",
+    "password": "company123"
+  },
+  {
+    "name": "Company Two",
+    "email": "company2@example.com",
+    "address": "101 Pine St",
+    "logo": "company2-logo.jpg",
+    "password": "company456"
+  },
+  {
+    "name": "Company Three",
+    "email": "company3@example.com",
+    "address": "222 Maple St",
+    "logo": "company3-logo.jpg",
+    "password": "company789"
+  },
+  {
+    "name": "Company Four",
+    "email": "company4@example.com",
+    "address": "333 Elm St",
+    "logo": "company4-logo.jpg",
+    "password": "company101"
+  },
+  {
+    "name": "Company Five",
+    "email": "company5@example.com",
+    "address": "444 Birch St",
+    "logo": "company5-logo.jpg",
+    "password": "company222"
+  }
+]

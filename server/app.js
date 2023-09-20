@@ -5,7 +5,7 @@ const morgan = require("morgan");
 const cors = require("cors");
 const helmet = require("helmet");
 
-const AppError = require("./utils/AppError");
+const AppError = require("./utils/appError");
 
 const app = express();
 

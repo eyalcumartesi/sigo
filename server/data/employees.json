@@ -1,0 +1,42 @@
+[
+	{
+		"name": "John Doe",
+		"email": "john.doe@example.com",
+		"company": "Company One",
+		"creditBalance": 1000,
+		"password": "employee123",
+		"passwordConfirm": "employee123"
+	},
+	{
+		"name": "Jane Smith",
+		"email": "jane.smith@example.com",
+		"company": "Company Two",
+		"creditBalance": 750,
+		"password": "employee456",
+		"passwordConfirm": "employee456"
+	},
+	{
+		"name": "David Brown",
+		"email": "david.brown@example.com",
+		"company": "Company Three",
+		"creditBalance": 500,
+		"password": "employee789",
+		"passwordConfirm": "employee789"
+	},
+	{
+		"name": "Alice Johnson",
+		"email": "alice.johnson@example.com",
+		"company": "Company Four",
+		"creditBalance": 1200,
+		"password": "employee101",
+		"passwordConfirm": "employee101"
+	},
+	{
+		"name": "Michael Lee",
+		"email": "michael.lee@example.com",
+		"company": "Company Five",
+		"creditBalance": 900,
+		"password": "employee222",
+		"passwordConfirm": "employee222"
+	}
+]

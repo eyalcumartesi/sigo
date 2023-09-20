@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Restaurant One",
+		"email": "restaurant1@example.com",
+		"photo": "restaurant1.jpg",
+		"location": "123 Main St",
+		"menu": ["Burger", "Pizza", "Salad"],
+		"password": "password123"
+	},
+	{
+		"name": "Restaurant Two",
+		"email": "restaurant2@example.com",
+		"photo": "restaurant2.jpg",
+		"location": "456 Elm St",
+		"menu": ["Steak", "Pasta", "Fish"],
+		"password": "password456"
+	},
+	{
+		"name": "Restaurant Three",
+		"email": "restaurant3@example.com",
+		"photo": "restaurant3.jpg",
+		"location": "789 Oak St",
+		"menu": ["Sushi", "Ramen", "Tempura"],
+		"password": "password789"
+	},
+	{
+		"name": "Restaurant Four",
+		"email": "restaurant4@example.com",
+		"photo": "restaurant4.jpg",
+		"location": "101 Pine St",
+		"menu": ["Tacos", "Burritos", "Enchiladas"],
+		"password": "password101"
+	},
+	{
+		"name": "Restaurant Five",
+		"email": "restaurant5@example.com",
+		"photo": "restaurant5.jpg",
+		"location": "222 Maple St",
+		"menu": ["Chicken", "Salmon", "Vegetables"],
+		"password": "password222"
+	}
+]
