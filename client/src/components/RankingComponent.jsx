@@ -7,20 +7,19 @@ import ListItemButton from "@mui/material/ListItemButton";
 import ListItemText from "@mui/material/ListItemText";
 import Avatar from "@mui/material/Avatar";
 import Typography from "@mui/material/Typography";
-import logo from "../../assets/logo.png";
 
 const restaurants = [
 	{
 		name: "Aroma",
-		logo: logo,
+		logo: "../../assets/logo.png",
 	},
 	{
-		name: "Aroma",
-		logo: logo,
+		name: "Hey",
+		logo: "../../assets/logo.png",
 	},
 	{
-		name: "Aroma",
-		logo: logo,
+		name: "Hello",
+		logo: "../../assets/logo.png",
 	},
 ];
 

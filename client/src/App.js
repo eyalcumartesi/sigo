@@ -1,23 +1,41 @@
 import React from "react";
-import { Box, Container } from "@mui/material";
-import { Sidebar, Overview, Employees, Credits, Settings } from "./containers";
+import { ColorModeContext, useMode } from "./theme";
+import { CssBaseline, ThemeProvider } from "@mui/material";
+import {
+	TopBar,
+	Sidebar,
+	Dashboard,
+	Employees,
+	Credits,
+	Settings,
+	SignIn,
+} from "./containers";
 import { Routes, Route } from "react-router-dom";
 
 function App() {
+	const [theme, colorMode] = useMode();
 	return (
-		<Box className="flex">
-			<Sidebar />
-			<Container
-				sx={{ width: "100%", height: "100%", paddingTop: 15, paddingLeft: 25 }}
-			>
+		<ColorModeContext.Provider value={colorMode}>
+			<ThemeProvider theme={theme}>
+				<CssBaseline />
 				<Routes>
-					<Route path="/" element={<Overview />} />
-					<Route path="/employees" element={<Employees />} />
-					<Route path="/credits" element={<Credits />} />
-					<Route path="/settings" element={<Settings />} />
+					<Route path="/sign-in/*" element={<SignIn />} />
 				</Routes>
-			</Container>
-		</Box>
+				<div className="app">
+					<Sidebar />
+					<main className="content">
+						<TopBar />
+
+						<Routes>
+							<Route path="/" element={<Dashboard />} />
+							<Route path="/employees" element={<Employees />} />
+							<Route path="/credits" element={<Credits />} />
+							<Route path="/settings" element={<Settings />} />
+						</Routes>
+					</main>
+				</div>
+			</ThemeProvider>
+		</ColorModeContext.Provider>
 	);
 }
 
